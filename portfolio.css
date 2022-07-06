@@ -58,7 +58,6 @@ body {
   display: none;
   position: relative;
   width: 375px;
-  display: flex;
   justify-content: space-between;
   height: 44px;
 }
@@ -1136,6 +1135,7 @@ ul {
   .profesional1 {
     display: none;
   }
+  
   .profesional2 {
     display: none;
   }
