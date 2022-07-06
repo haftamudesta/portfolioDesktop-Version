@@ -55,6 +55,7 @@ body {
 }
 
 .uper-bar {
+  display: none;
   position: relative;
   width: 375px;
   display: flex;
@@ -63,6 +64,7 @@ body {
 }
 
 .time {
+  display: none;
   position: relative;
   width: 54px;
   height: 16px;
@@ -77,6 +79,7 @@ body {
 }
 
 .symbols {
+  display: none;
   margin-left: 24px;
   margin-bottom: 24px;
 }
@@ -118,12 +121,14 @@ body {
   font-weight: 700;
   font-size: 18px;
   animation: animation-test 6s ease-in;
+  margin-top: -16px;
 }
 
 .allign {
   position: relative;
   right: 8%;
   color: #fff;
+  margin-top: -6px;
 }
 
 ul {
@@ -435,6 +440,22 @@ ul {
   grid-template-columns: auto;
   background-image: url(../portfolioDesktop-Version/images/Placeholder1.png);
   overflow-x: hidden;
+}
+
+.profetional-desktop {
+  display: none;
+}
+
+.profetional2-desktop {
+  display: none;
+}
+
+.profetional3-desktop {
+  display: none;
+}
+
+.profesional4-desktop {
+  display: none;
 }
 
 .art {
@@ -1030,9 +1051,10 @@ ul {
 
   .section2 {
     width: 100vw;
-    height: 1400px;
+    height: 1600px;
     padding-left: 44px;
     padding-right: 44px;
+    overflow: hidden;
   }
 
   .my-works {
@@ -1095,11 +1117,65 @@ ul {
 
   .profesional {
     width: 95%;
-    overflow: hidden;
   }
 
   .profesional:hover {
     border: 2px solid blue;
+  }
+
+  .art {
+    margin-top: 140px;
+  }
+
+  .profetional-desktop {
+    display: flex;
+    flex-direction: column;
+    background-image: url(../portfolioDesktop-Version/images/Placeholder3.png);
+  }
+
+  .profesional1 {
+    display: none;
+  }
+  .profesional2 {
+    display: none;
+  }
+
+  .profetional2-desktop {
+    display: flex;
+    flex-direction: column;
+    background-image: url(../portfolioDesktop-Version/images/Placeholder4.png);
+  }
+
+  .profesional3 {
+    display: none;
+  }
+
+  .profetional3-desktop {
+    display: flex;
+    flex-direction: column;
+    background-image: url(../portfolioDesktop-Version/images/Placeholder5.png);
+  }
+
+  .profesional4 {
+    display: none;
+  }
+
+  .profesional4-desktop {
+    display: flex;
+    flex-direction: column;
+    background-image: url(../portfolioDesktop-Version/images/Placeholder1.png);
+  }
+
+  .profesional5 {
+    display: none;
+  }
+
+  .profesional6 {
+    display: none;
+  }
+
+  .buttons1 > ul {
+    align-self: flex-end;
   }
 
   .section3 {
