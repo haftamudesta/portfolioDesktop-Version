@@ -1129,6 +1129,7 @@ ul {
   .profetional-desktop {
     display: flex;
     flex-direction: column;
+    overflow: hidden;
     background-image: url(../portfolioDesktop-Version/images/Placeholder3.png);
   }
 
@@ -1180,7 +1181,7 @@ ul {
 
   .section3 {
     width: 100vw;
-    height: 1201px;
+    height: 1401px;
   }
 
   .aboutMe {
@@ -1202,7 +1203,7 @@ ul {
 
   .hello {
     margin-left: 60px;
-    margin-top: -80px;
+    margin-top: 80px;
   }
 
   .get {
@@ -1224,14 +1225,16 @@ ul {
   }
 
   .devider-image {
+    display: flex;
     width: 1200px;
-    margin-top: -484px;
+    margin-top: -284px;
   }
 
   .abilities {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    margin-top: 100px;
+    margin-bottom: 180px;
+    margin-top: 80px;
   }
 
   .language {
@@ -1259,11 +1262,13 @@ ul {
 
   .section4 {
     width: 100vw;
+    margin-bottom: 200px;
   }
 
   .section4Top {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    margin-bottom: 40px;
   }
 
   .always {
