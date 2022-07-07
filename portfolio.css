@@ -437,7 +437,7 @@ ul {
   width: 375px;
   display: grid;
   grid-template-columns: auto;
-  background-image: url(../portfolioDesktop-Version/images/Placeholder1.png);
+  background-image: url(./images/Placeholder1.png);
   overflow-x: hidden;
 }
 
@@ -515,7 +515,7 @@ ul {
 }
 
 .seep {
-  background-image: url(../portfolioDesktop-Version/images/Action.png);
+  background-image: url(./images/Action.png);
   position: relative;
   width: 375px;
   height: 48px;
@@ -999,7 +999,7 @@ ul {
   .section1 {
     width: 100vw;
     background-position: left;
-    background-image: url(../portfolioDesktop-Version/images/Gourp1B.png);
+    background-image: url(./images/Gourp1B.png);
     background-repeat: no-repeat;
     background-position-x: 690px;
   }
@@ -1130,7 +1130,7 @@ ul {
     display: flex;
     flex-direction: column;
     overflow: hidden;
-    background-image: url(../portfolioDesktop-Version/images/Placeholder3.png);
+    background-image: url(./images/Placeholder3.png);
   }
 
   .profesional1 {
@@ -1144,7 +1144,7 @@ ul {
   .profetional2-desktop {
     display: flex;
     flex-direction: column;
-    background-image: url(../portfolioDesktop-Version/images/Placeholder4.png);
+    background-image: url(./images/Placeholder4.png);
   }
 
   .profesional3 {
@@ -1154,7 +1154,7 @@ ul {
   .profetional3-desktop {
     display: flex;
     flex-direction: column;
-    background-image: url(../portfolioDesktop-Version/images/Placeholder5.png);
+    background-image: url(./images/Placeholder5.png);
   }
 
   .profesional4 {
@@ -1164,7 +1164,7 @@ ul {
   .profesional4-desktop {
     display: flex;
     flex-direction: column;
-    background-image: url(../portfolioDesktop-Version/images/Placeholder1.png);
+    background-image: url(./images/Placeholder1.png);
   }
 
   .profesional5 {
@@ -1241,6 +1241,10 @@ ul {
     position: relative;
   }
 
+  .language ul {
+    margin-top: -30px;
+  }
+
   .frameworks {
     position: relative;
     margin-top: -200px;
@@ -1249,7 +1253,10 @@ ul {
   .skills {
     position: relative;
     margin-top: -480px;
-    margin-bottom: 0;
+  }
+
+  .skills ul {
+    margin-top: 15px;
   }
 
   .lastimage {
